@@ -41,7 +41,7 @@ jobs:
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
-        uses: xulisha123/justcodeit@main
+        uses: xulisha123/blog@main
         with:
           # 部署文档
           branch: gh-pages
