@@ -1,0 +1,21 @@
+{
+  "name": "my-blog",
+  "description": "xushu's blog",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-webpack build src",
+    "docs:clean-dev": "vuepress-webpack dev src --clean-cache",
+    "docs:dev": "vuepress-webpack dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "2.0.0-rc.14",
+    "vue": "^3.4.31",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-hope": "2.0.0-rc.52",
+    "sass-loader": "^14.2.1"
+  },
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
+}
