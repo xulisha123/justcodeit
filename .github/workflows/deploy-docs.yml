@@ -40,12 +40,12 @@ jobs:
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
-        uses: xulisha123/justcodeit@main
-        with:
-          # 部署文档
-          branch: main
-          folder: src/.vuepress/dist
-        env:
-          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: 部署文档
+      #   uses: xulisha123/justcodeit@main
+      #   with:
+      #     # 部署文档
+      #     branch: main
+      #     folder: src/.vuepress/dist
+      #   env:
+      #     # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
