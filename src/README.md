@@ -30,8 +30,8 @@ projects:
 
   - icon: friend
     name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    desc: 伙伴详细介绍2
+    link: https://你的伙伴链接2
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
     name: 自定义项目
