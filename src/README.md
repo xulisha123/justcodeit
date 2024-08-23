@@ -6,7 +6,7 @@ title: 首页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 徐庶
 heroFullScreen: true
-tagline: 致敬大师！<br/>致敬未来的你！
+tagline: 致敬大师！致敬未来的你！
 projects:
   - icon: project
     name: 项目名称
