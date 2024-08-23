@@ -2,11 +2,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: 徐庶
+title: 首页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 徐庶
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 致敬大师！<br/>致敬未来的你！
 projects:
   - icon: project
     name: 项目名称
